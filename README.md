@@ -1,8 +1,17 @@
+<!--
+Copyright (c) 2024 Thomas Mikalsen. Subject to the MIT License
+-->
+
+![alt gobrot](./doc/gobrot.png "Gobrot")
+
+
 GoBrot
 ======
 
-This is a Mandelbrot Set explorer written in Go using the SDL2 library for
-platform-indepenent graphics.
+An interactive Mandelbrot Set explorer written in Go using the SDL2
+library for platform-independent graphics. A multi-threaded (goroutine)
+rendering process provides efficient and realtime exploration of this
+fascinating mathematical object.
 
 Pre-reqs:
 ---------
@@ -79,4 +88,21 @@ Run It
 make run
 ```
 
+### Mouse Controls:
+
+ * *Left Click-and-Drag*: Pan/scroll
+ * *Left Double-click*: Center and zoom in
+ * *Shift + Left Double-click*: Center and zoom out
+ * *Mouse Wheel*: Zoom in and out
+ * *Shift + Wheel*: Rotate
+ * *Ctrl + Wheel*: Increase/decrease max number of iterations
+ * *Alt + Wheel*: Increase/decrease number of entries in palette
+
+### Keyboard Controls:
+ * *Esc*: Exit the program
+ * *Home*: Return to initial/home waypoint and settings
+ * *Arrows*: Pan/scroll
+ * *PgUp/PgDn*: Zoom in/out
+ * *Shift+PgUp/PgDown*: zoom in/out more
+ * *+/-*: Increase/decrease max number of iterations
 

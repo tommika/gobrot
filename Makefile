@@ -1,3 +1,5 @@
+# vim: ts=4 sw=4
+# Copyright (c) 2019, 2024 Thomas Mikalsen. Subject to the MIT License 
 ifeq ($(OS),Windows_NT)
 EXE_X=.exe
 else

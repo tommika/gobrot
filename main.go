@@ -1,3 +1,4 @@
+// Copyright (c) 2019, 2024 Thomas Mikalsen. Subject to the MIT License
 package main
 
 import (
@@ -7,4 +8,3 @@ import (
 func main() {
 	mandelbrot.Controller()
 }
-

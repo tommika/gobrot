@@ -1,3 +1,4 @@
+// Copyright (c) 2019, 2024 Thomas Mikalsen. Subject to the MIT License
 package mandelbrot
 
 import (
