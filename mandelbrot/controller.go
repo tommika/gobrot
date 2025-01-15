@@ -92,7 +92,7 @@ func Controller() {
 		case *sdl.MouseWheelEvent:
 			kms := sdl.GetModState()
 			if (kms & sdl.KMOD_SHIFT) != 0 {
-				view.Rotate(int(evt.Y) * 4)
+				view.Rotate(int(evt.X) + int(evt.Y)*4)
 			} else if (kms & sdl.KMOD_CTRL) != 0 {
 				view.maxorbit += int(evt.Y)
 				view.Invalidate()
