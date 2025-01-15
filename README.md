@@ -2,7 +2,7 @@
 Copyright (c) 2024 Thomas Mikalsen. Subject to the MIT License
 -->
 
-![alt gobrot](./doc/gobrot.png "Gobrot")
+![alt gobrot](./doc/gobrot.jpg "Gobrot")
 
 
 GoBrot
