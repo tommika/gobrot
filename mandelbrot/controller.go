@@ -110,48 +110,38 @@ func Controller() {
 				switch evt.Keysym.Sym {
 				case sdl.K_ESCAPE:
 					quit = true
-					break
 				case sdl.K_HOME:
 					view.palette = CreatePalette(defaultPaletteSize, palR, palG, palB)
 					view.GotoWaypoint(wpHome)
 					update = true
-					break
 				case sdl.K_UP:
 					view.Scroll(0, 10)
 					update = true
-					break
 				case sdl.K_DOWN:
 					view.Scroll(0, -10)
 					update = true
-					break
 				case sdl.K_LEFT:
 					view.Scroll(-10, 0)
 					update = true
-					break
 				case sdl.K_RIGHT:
 					view.Scroll(10, 0)
 					update = true
-					break
 				case sdl.K_PAGEUP:
 					view.Zoom(-50)
 					update = true
-					break
 				case sdl.K_PAGEDOWN:
 					view.Zoom(+50)
 					update = true
-					break
 				// FIXME - not getting sdl.K_PLUS on windows or Mac. Seems to not
 				// translate a Shift+Equal(=) to a Plus(+)
 				case sdl.K_PLUS, sdl.K_KP_PLUS, sdl.K_EQUALS:
 					view.maxorbit += 10
 					view.Invalidate()
 					update = true
-					break
 				case sdl.K_MINUS, sdl.K_KP_MINUS:
 					view.maxorbit -= 10
 					view.Invalidate()
 					update = true
-					break
 				}
 			}
 		}
