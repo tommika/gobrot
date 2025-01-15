@@ -1,8 +1,8 @@
 <!--
-Copyright (c) 2024 Thomas Mikalsen. Subject to the MIT License
+Copyright (c) 2019, 2024 Thomas Mikalsen. Subject to the MIT License
 -->
 
-![alt gobrot](./doc/gobrot.jpg "Gobrot")
+![alt gobrot](./doc/gobrot.png "Gobrot")
 
 
 GoBrot
