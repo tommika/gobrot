@@ -18,7 +18,7 @@ Pre-reqs:
 
 ## Go
 
-Install Go. I'm currently using version `go1.13.1`.
+Install Go 1.13+
 
 ## SDL
 
